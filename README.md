@@ -7,14 +7,17 @@ Users will be able to login, register with email and password, reset their passw
 
 Authenticated users with the right permission will be able to view all of his uploaded moments as well as all moments for unauthenticated users.
 
+How to run the project
+
+Go inside the project folder, open cmd and type the following commands to install Django Framework and run the webserver:
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+Step 3: Finally, open the browser and go to http://127.0.0.1:8000/
 
 
-Important
-Assessment deadline is on Thursday 16th Feb 2021 by 11:59 PM due.
 
-Follow git & github workflows
 
-Make sure code is tested i.e use Test Driven Development
 
 
 
